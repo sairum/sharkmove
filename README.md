@@ -30,7 +30,7 @@ OPTIONS:
   -p lat long steps  starting point (lat/long in decimal degrees) and number of steps
                      Several starting points may be provided [max 50] repeating -p switch
 ```
-Below is an example of a simple simulation with two different starting points passed through the switch `-p`. Note that a series of 480 and 1008 steps will be created for each starting point. Step angles will be selected randomly, and step lenghts will be drawn from a uniform distribution between 55.86 and 20495.95 km. Two independent replicas will be created for each starting point (`-r 2`). Results are redirected to a file called *results.txt* which is an ArcGis ASCII Grid formated file, suitable to be read by any GIS software.
+Below is an example of a simple simulation with two different starting points passed through the switch `-p`. Note that a series of 480 and 1008 steps will be created for each starting point. Step angles will be selected randomly, and step lengths will be drawn from a uniform distribution between 55.86 and 20495.95 km. Two independent replicas will be created for each starting point (`-r 2`). Results are redirected to a file called *results.txt* which is an ArcGis ASCII Grid formatted file, suitable to be read by any GIS software.
 
 ```bash
 ./sharkmove -m 55.86 -n 20495.95 -p 36.981 -8.613 480 -p 36.962 -8.676 1008 -r 2 > results.txt
