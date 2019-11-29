@@ -1,0 +1,6 @@
+data/
+docs/
+statistics/
+src/sharkmove
+src/*.o
+src/*~
