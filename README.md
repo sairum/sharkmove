@@ -1,3 +1,5 @@
+## *This repository was moved to Codeberg*
+
 # sharkmove
 Simulate shark movements in NE Atlantic by generating random walks
 
